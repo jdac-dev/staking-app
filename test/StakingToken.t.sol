@@ -4,7 +4,7 @@ pragma solidity 0.8.35;
 
 import "forge-std/Test.sol";
 import "../src/StakingToken.sol";
-import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
+import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
 
 contract StakingTokenTest is Test {
 
